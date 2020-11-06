@@ -21,5 +21,28 @@ namespace HotelManagerForm
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            if(txtusername.Text=="derick" && txtpassword.Text=="deri")
+            {
+                labelerror.Visible = false;
+            }
+            else
+            {
+                labelerror.Visible = true;
+                txtpassword.Clear();
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
