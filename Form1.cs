@@ -29,7 +29,7 @@ namespace HotelManagerForm
 
         private void Login_Click(object sender, EventArgs e)
         {
-            if(txtusername.Text=="derick" && txtpassword.Text=="deri")
+            if(txtusername.Text=="derick" && txtpassword.Text=="george")
             {
                 labelerror.Visible = false;
             }
