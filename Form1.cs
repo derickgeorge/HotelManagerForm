@@ -32,6 +32,9 @@ namespace HotelManagerForm
             if(txtusername.Text=="derick" && txtpassword.Text=="george")
             {
                 labelerror.Visible = false;
+                Form2 ds = new Form2();
+                this.Hide();
+                ds.Show();
             }
             else
             {
